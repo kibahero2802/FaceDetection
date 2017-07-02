@@ -85,7 +85,7 @@ public class FaceDetection extends javax.swing.JFrame {
 //                            for (Rect rect : mouthDetections.toArray()) {
 //                                Imgproc.rectangle(frame, new Point(rect.x, rect.y), new Point(rect.x + rect.width, rect.y + rect.height),
 //                                        new Scalar(0, 0, 255));
-//                                if (count <= 20) {
+//                                 if (count <= 20) {
 //                                    Mat mouthImage = frame.submat(rect);
 //                                    Imgcodecs.imwrite("Mouth" + count + ".jpg", mouthImage);
 //                                }
